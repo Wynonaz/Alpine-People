@@ -1,0 +1,165 @@
+body {
+    margin: 0 auto;
+    font-family: helvetica;
+    max-width: 90%;
+    background-color: #DCDCDC;
+}
+.navigation ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #15182B;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.navigation li {
+    float: left
+}
+
+.navigation li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #111;
+}
+.hero {
+    height: 100vh;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: whitesmoke;
+    font-family: helvetica;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('./alpes.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-family: helvetica;
+
+    margin-top: 0;
+    margin-bottom: 0.1em;
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+    
+    padding: 0.2em;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #428A38;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+}
+.adventures{
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    font-family: helvetica;
+}
+.adventures h1{
+    text-align: center;
+    font-size: 2em;
+    color: #15182B;
+}
+  
+.all-As{
+    width: 100%;
+    margin-left: 120px;
+    grid: 1fr 1fr
+  }
+
+.gallery{
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    font-family: helvetica;
+}
+.gallery h1{
+    text-align: center;
+    font-size: 2em;
+    color: #15182B;
+}
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+    text-align: center;
+    color: #15182B;
+}
+
+.images:hover {
+    border: 1px solid #777;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 5px;
+    text-align: center;
+    font-size:"10%";
+}
+.team{
+    border: 1px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.team h1{
+    text-align: center;
+    font-size: 2em;
+    color: #15182B;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+    text-align: center;
+    color: #15182B;
+    margin-bottom: 20px;
+}
+img.rounded-circle {
+    width: 60%;
+    border-radius: 50%;
+}
+.column p{
+    padding: 10%;
+}
+
+.contact {
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    font-family: helvetica;
+}
+.contact h1{
+    text-align: center;
+    font-size: 2em;
+    color: #15182B;
+}
